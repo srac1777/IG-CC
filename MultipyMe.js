@@ -7,11 +7,10 @@ const mul = (arg) => {
     let argValues = [];
     const subMul = (el) => {
         argValues.push(el);
+        result *= el;
         if (argValues.length < numArgs){
-            result *= el;
             return subMul;
         } else {
-            result *= el;
             return result;
         }
         
