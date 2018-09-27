@@ -3,7 +3,7 @@
 
 const mul = (arg) => {
     let result = 1;
-    let numArgs = 3;
+    let numArgs = 3; //assuming we want result after 3rd invocation
     let argValues = [];
     const subMul = (el) => {
         argValues.push(el);
